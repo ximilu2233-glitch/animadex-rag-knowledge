@@ -1,0 +1,3 @@
+[DOMAIN:模板] [CAT:插画/局部重绘]
+template: masterpiece, best quality, score_7, highres, {safety}, @{artist}, {count}, {character}, {change_target}, keep everything else identical to the original composition, pose, background, and art style, only the specified element is altered, seamless integration with the surrounding areas, no visible seams or style inconsistency
+slots: safety, artist, count, character, change_target
