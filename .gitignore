@@ -1,0 +1,19 @@
+# 源文件（过大，属上游项目，通过 README 中链接获取）
+source/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 版本管理临时文件
+output/.version
+
+# 旧版本输出
+output/
+!知识库/
+
+# 系统文件
+.DS_Store
+Thumbs.db
