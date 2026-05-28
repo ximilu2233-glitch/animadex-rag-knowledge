@@ -1,0 +1,3 @@
+[DOMAIN:模板] [CAT:漫画/单页]
+template: masterpiece, best quality, score_7, highres, {safety}, @{artist}, monochrome, grayscale, manga, screen tone, halftone, {count}, {character}, {action}, speech bubble, japanese text, action lines, A single manga panel: {character} {action}, strong dynamic lineart with screen tone shading, speed lines radiating from the focal point, black and white comic aesthetic, white border framing the panel edge, authentic shonen manga page texture
+slots: safety, artist, count, character, action

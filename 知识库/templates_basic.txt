@@ -1,0 +1,3 @@
+[DOMAIN:模板] [CAT:插画/基础]
+template: masterpiece, best quality, score_7, highres, year_2025, newest, {safety}, @{artist}, {count}, {character}, {clothing}, {pose}, {scene}, {lighting}, {character} wearing {clothing}, posed in {pose}, standing against {scene}, illuminated by {lighting}, solo focus
+slots: safety, artist, count, character, clothing, pose, scene, lighting

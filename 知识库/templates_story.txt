@@ -1,0 +1,3 @@
+[DOMAIN:模板] [CAT:插画/剧情主视觉]
+template: masterpiece, best quality, score_9, score_8_up, score_7_up, highres, year_2025, newest, {safety}, @{artist}, {count}, {character}, dramatic lighting, explosive composition, anime key visual, story opening, ultra detailed, A {identity} {action} toward the viewer in the foreground while {conflict} unfolds behind her, the atmosphere dense with {mood}, her body leaning forward and her eyes locked on the audience, the composition pulling the viewer into the scene with strong diagonal lines and layered depth
+slots: safety, artist, count, character, identity, action, conflict, mood

@@ -1,0 +1,12 @@
+[DOMAIN:模板] [CAT:视频/首尾帧]
+template: masterpiece, best quality, score_7, highres, year_2025, newest, {safety}, @{artist}, {count}, {character}, {clothing}, {pose}, {scene}, {lighting}, anime coloring, cel shading, A single {frame_type} for image-to-video generation: {character} wearing {clothing}, posed in {pose}, positioned {composition} of the frame, facing {direction}, {motion_hint}, set against {scene} with {lighting}, clean edges with no ambiguous boundaries, the pose carrying clear directional energy suitable for video interpolation, flat-color-with-gradient anime aesthetic
+slots: safety, artist, count, character, clothing, pose, scene, lighting, frame_type, composition, direction, motion_hint
+
+# 首帧参考 (frame_type=opening keyframe):
+#   composition → "in the left third"
+#   direction → "rightward, toward the empty space"
+#   motion_hint → "her body coiled, weight on the back foot, about to sprint forward"
+# 尾帧参考 (frame_type=closing keyframe):
+#   composition → "in the right third, having completed the motion"
+#   direction → "leftward, looking back at the path traveled"
+#   motion_hint → "her posture relaxed, weight settled, momentum spent, a faint smile of arrival"
