@@ -1,0 +1,251 @@
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @kantoku
+  name: 监督
+  style: 格子控，色彩极度清新，光影通透，高光细腻，适合校园题材。
+  template: @kantoku, 1girl, {character}, god rays, soft shading, rim light, high contrast, plaid pattern, clean linework, school theme, pastel colors, gentle expression
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @anmi
+  style: 像果冻一样的透明质感，线条极其柔软，富有动感的可爱姿态。
+  template: @anmi, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @hiten
+  style: 温柔的日常光影，极其细腻的头发描绘，知性美，高精度插画。
+  template: @hiten, 1girl, {character}, god rays, rim light, high contrast, natural lighting, casual pose, simple background, cinematic lighting, school uniform, gentle expression
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @coffee_kizoku
+  name: 珈琲贵族
+  style: 经典的日系画风，擅长描绘黑长直、女仆装，光影正统。
+  template: @coffee_kizoku, 1girl, {character}, god rays, rim light, high contrast, frills, apron, headband, long hair, elegant
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @40hara
+  name: 嫌弃脸作者
+  style: 色彩鲜艳且日常，擅长猫耳娘和生活化场景。
+  template: @40hara, 1girl, {character}, simple background, natural lighting, casual pose, school uniform, gentle expression
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @shiratamaco
+  name: 白玉
+  style: 极度软萌，Q弹的脸颊，类似麻薯的质感，治愈系。
+  template: @shiratamaco, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @tiv
+  style: 唯美的情感流露，色彩柔和，擅长描绘少女的细腻情绪和微风感。
+  template: @tiv, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @misaki_kurehito
+  name: 深崎暮人
+  style: 《路人女主》画师，高饱和度，高光油亮，极具质感的丝袜与衣物折痕。
+  template: @misaki_kurehito, 1girl, {character}, high saturation, vivid colors, pop art style, bold palette
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @tsunako
+  name: 海王星系列
+  style: 极其精致的萌系五官，发饰繁复，色彩鲜亮，典型二次元美少女。
+  template: @tsunako, 1girl, {character}, simple background, solo focus, cute expression, soft colors, gentle expression
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @fly_co
+  style: 极其细腻的背景与人物融合，色彩清新淡雅，很有空气感。
+  template: @fly_co, 1girl, {character}, clean linework, scenic view, pastel colors, detailed background, depth of field, simple background, atmospheric lighting, soft lighting, gentle expression
+---
+[DOMAIN:画师精选] [CAT:清新/萌系/日常] @cogecha
+  style: 擅长描绘现代时尚少女，色彩活泼，线条轻快。
+  template: @cogecha, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @arsenixc
+  style: 背景狂魔，极致的城市与自然细节，新海诚风格，空气感强。
+  template: @arsenixc, 1girl, {character}, scenic view, depth of field, detailed background, atmospheric lighting
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @fuzichoco
+  name: 藤原
+  style: 色彩极度华丽，传统和服与奇幻建筑结合，广角，细节爆炸，高饱和彩虹色。
+  template: @fuzichoco, 1girl, {character}, high saturation, vivid colors, pop art style, bold palette
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @mocha
+  style: 广阔的蓝天与云海，超大广角，宁静的空气感，适合天空场景。
+  template: @mocha, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @yuumei
+  style: 极具情感张力的环境光，半写实风格，故事感强，光影戏剧化，赛博与自然结合。
+  template: @yuumei, 1girl, {character}, god rays, realistic proportions, rim light, high contrast, semi-realistic, detailed face, subsurface scattering, cinematic lighting, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @demizu_posuka
+  style: 《约定的梦幻岛》画师，极度复杂的构图，鱼眼镜头，机械与奇幻结合。
+  template: @demizu_posuka, 1girl, {character}, mechanical parts, robot, industrial design, metal joints
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @rella
+  style: 梦幻般的光影，擅长初音未来，光粒子效果，透明感与色彩斑斓。
+  template: @rella, 1girl, {character}, god rays, rim light, high contrast, translucent colors, soft gradient, ethereal, cinematic lighting, glowing effect
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @makoto_shinkai
+  name: 新海诚
+  style: 极致的天空、云层、光晕，电影级的高清晰度背景。
+  template: @makoto_shinkai, 1girl, {character}, scenic view, depth of field, detailed background, atmospheric lighting
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @rolua
+  style: 极度细腻的光影渲染，画面带有忧郁或梦幻的电影质感，细节丰富。
+  template: @rolua, 1girl, {character}, god rays, rim light, lonely atmosphere, high contrast, soft focus, melancholic mood, cool tones, cinematic lighting
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @imperial_boy
+  name: 帝国少年
+  style: 极其复杂的城市建筑结构，蒸汽朋克，细节密度极高。
+  template: @imperial_boy, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:大场景/背景/氛围] @wanke
+  style: 冷艳暗黑美学，低饱和通透柔光，极致繁复的细节刻画，暗调背景突出人物
+  template: @wanke, 1girl, {character}, scenic view, dark theme, gothic aesthetic, monochrome tones, detailed background, dramatic shadows, depth of field, atmospheric lighting, dark atmosphere
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @wlop
+  style: 史诗感，强烈的侧光，金属质感，骑士与公主，模糊背景突出人物。
+  template: @wlop, 1girl, {character}, reflective surface, atmospheric background, dynamic pose, chrome finish, scenic view, metallic texture, detailed background, epic composition, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @guweiz
+  style: 暗调，冷酷女性，电影镜头感，高对比度，擅长雨天和夜景。
+  template: @guweiz, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @swav
+  style: 现代战术风，块面感强，时尚与军事结合，几何感，干练。
+  template: @swav, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @krenz
+  name: K大
+  style: 极强的透视与块面概括，色彩扎实，学院派光影，动态感强。
+  template: @krenz, 1girl, {character}, god rays, cinematic lighting, rim light, high contrast
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @shal.e
+  style: 极度精致的半写实面部，破碎感，赛博/奇幻风格，眼神迷离，类似BJD娃娃。
+  template: @shal.e, 1girl, {character}, semi-realistic, detailed face, realistic proportions, subsurface scattering, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @ask
+  style: 古典主义，花卉纹理，柔和的油画感，优雅，平面设计感。
+  template: @ask, 1girl, {character}, bold lines, graphic composition, high contrast, stylized
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @nixeu
+  style: 极度精致的玩偶感面部，发光的皮肤质感，华丽的金属与饰品细节（Anima 强效）。
+  template: @nixeu, 1girl, {character}, metallic texture, reflective surface, armor, chrome finish
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @artgerm
+  style: 美漫封面级半写实，极致的人体结构，极其干净的厚涂风格。
+  template: @artgerm, 1girl, {character}, realistic proportions, high contrast, dynamic pose, painterly style, comic style, bold lines, halftone, rich textures, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @sakimichan
+  style: 欧美3D质感厚涂，极其夸张的身材比例，高光油腻感，强烈的动态。
+  template: @sakimichan, 1girl, {character}, rich textures, detailed rendering, dramatic lighting, painterly style, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @ghostblade
+  name: 鬼刀风格，通常关联WLOP
+  style: 但可作为独立风格词，强调沧桑与华丽并存。
+  template: @ghostblade, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:厚涂/半写实/史诗] @koda_kazuma
+  style: 《尼尔》系列概念设计，史诗般的废墟感，灰阶丰富，厚重。
+  template: @koda_kazuma, 1girl, {character}, concept art, atmospheric background, dynamic pose, detailed armor, epic composition, dramatic lighting, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:潮流/设计感/高饱和] @mika_pikazo
+  style: 极高饱和度，色彩对撞，活力四射，几何图形装饰，VTuber 辉夜月设计者。
+  template: @mika_pikazo, 1girl, {character}, high saturation, vivid colors, pop art style, bold palette
+---
+[DOMAIN:画师精选] [CAT:潮流/设计感/高饱和] @lam
+  style: 极具攻击性的帅气，瞳孔特写，强烈的对比色，棱角分明。
+  template: @lam, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:潮流/设计感/高饱和] @redjuice
+  style: 金属质感，科技光效，赛博朋克，精细的机械设定，Guilty Crown 风格。
+  template: @redjuice, 1girl, {character}, robot, industrial design, reflective surface, chrome finish, metallic texture, metal joints, mechanical parts, armor
+---
+[DOMAIN:画师精选] [CAT:潮流/设计感/高饱和] @yoneyama_mai
+  name: 米山舞
+  style: 霓虹光效，动态模糊，极高的细节密度，现代潮流，商业插画，线条极其锋利。
+  template: @yoneyama_mai, 1girl, {character}, fashionable outfit, vibrant colors, trendy aesthetic, bold composition
+---
+[DOMAIN:画师精选] [CAT:潮流/设计感/高饱和] @tarou2
+  style: 运动感，结实的身体线条，透视夸张，美式日系融合，扳机社风格。
+  template: @tarou2, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:潮流/设计感/高饱和] @vofan
+  style: "光之魔术师"，独特的色彩光影，鲜艳且带有透明感，物语系列风格。
+  template: @vofan, 1girl, {character}, god rays, rim light, high contrast, translucent colors, soft gradient, ethereal, cinematic lighting, glowing effect
+---
+[DOMAIN:画师精选] [CAT:潮流/设计感/高饱和] @acky_bright
+  style: 黑白线稿为主，通过局部高饱和上色，极为复杂的涂鸦/漫画风格。
+  template: @acky_bright, 1girl, {character}, high saturation, vivid colors, pop art style, bold palette
+---
+[DOMAIN:画师精选] [CAT:潮流/设计感/高饱和] @kuroboshi_kouhaku
+  name: 黑星红白
+  style: 极其干净的线条，淡雅的水彩感上色，FGO/奇诺之旅画师。
+  template: @kuroboshi_kouhaku, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:暗黑/科幻/忧郁] @neco
+  style: 机械义肢，冷灰色调，战术装备，高冷少女，无机质感，重兵装型女高中生。
+  template: @neco, 1girl, {character}, mechanical parts, robot, industrial design, metal joints
+---
+[DOMAIN:画师精选] [CAT:暗黑/科幻/忧郁] @ogipote
+  style: 颓废感，生活中的小确丧，凌乱的线条，独特的情绪氛围。
+  template: @ogipote, 1girl, {character}, mood lighting, particles, volumetric fog, atmospheric
+---
+[DOMAIN:画师精选] [CAT:暗黑/科幻/忧郁] @mashiro_kta
+  style: 混沌，暗黑，素描/涂鸦质感，极具张力，崩坏感。
+  template: @mashiro_kta, 1girl, {character}, monochrome tones, dramatic shadows, dark theme, gothic aesthetic, dark atmosphere
+---
+[DOMAIN:画师精选] [CAT:暗黑/科幻/忧郁] @tokyo_genso
+  name: 东京幻想
+  style: 描绘被植物覆盖的废弃现代都市，末世感与宁静感并存。
+  template: @tokyo_genso, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:暗黑/科幻/忧郁] @huke
+  style: 粗颗粒纹理，标志性的黑眼圈与发光眼，Black Rock Shooter 风格，阴郁厚重。
+  template: @huke, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:暗黑/科幻/忧郁] @abara
+  name: 类似二瓶勉
+  style: 极繁复的建筑结构，黑白高对比，生物机械恐怖感。
+  template: @abara, 1girl, {character}, mechanical parts, robot, industrial design, metal joints
+---
+[DOMAIN:画师精选] [CAT:暗黑/科幻/忧郁] @wataboku
+  style: 数码故障艺术结合日系校服，忧郁，独特的纹理质感。
+  template: @wataboku, 1girl, {character}, cool tones, soft focus, melancholic mood, lonely atmosphere
+---
+[DOMAIN:画师精选] [CAT:游戏美术/概念设计] @hyung-tae_kim
+  name: 金亨泰
+  style: 《剑灵/妮姬》画师，极其强调大腿与盆骨的肉感，油亮的皮肤，独特的解剖结构。
+  template: @hyung-tae_kim, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:游戏美术/概念设计] @so-bin
+  style: 《Overlord》画师，笔触狂野的厚涂，暗黑奇幻，强烈的色彩光晕。
+  template: @so-bin, 1girl, {character}, painterly style, dark theme, gothic aesthetic, rich textures, monochrome tones, dramatic lighting, detailed rendering, dramatic shadows, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:游戏美术/概念设计] @akihiko_yoshida
+  name: 吉田明彦
+  style: 《尼尔/FF14》画师，淡雅的铅笔素描质感，古典且精致。
+  template: @akihiko_yoshida, 1girl, {character}
+---
+[DOMAIN:画师精选] [CAT:游戏美术/概念设计] @lack
+  style: 极高的完成度，色彩鲜艳且扎实，FGO/TCG卡牌风格，光影极其标准。
+  template: @lack, 1girl, {character}, god rays, cinematic lighting, rim light, high contrast
+---
+[DOMAIN:画师精选] [CAT:游戏美术/概念设计] @magota
+  style: 极其华丽的背景与人物互动，色彩浓郁，幻想童话风格。
+  template: @magota, 1girl, {character}, scenic view, depth of field, detailed background, atmospheric lighting
+---
+[DOMAIN:画师精选] [CAT:复古/90年代风] @haruhiko_mikimoto
+  name: 美树本晴彦
+  style: 80/90年代经典风格，柔和的线条，复古的瞳孔画法，超时空要塞风。
+  template: @haruhiko_mikimoto, 1girl, {character}, retro colors, grainy texture, cel animation style, retro style, vintage colors, 90s anime style, 90s anime
+---
+[DOMAIN:画师精选] [CAT:复古/90年代风] @yoshiyuki_sadamoto
+  name: 贞本义行
+  style: 《EVA》画师，极简而有力的线条，经典的90年代人设风格。
+  template: @yoshiyuki_sadamoto, 1girl, {character}, grainy texture, retro colors, 90s anime, cel animation style
+---
+[DOMAIN:画师精选] [CAT:复古/90年代风] @rumiko_takahashi
+  name: 高桥留美子
+  style: 经典复古漫改风，独特的五官比例。
+  template: @rumiko_takahashi, 1girl, {character}, 90s anime style, grainy texture, retro style, vintage colors
+---
+[DOMAIN:画师精选] [CAT:西式数码/美漫] @rossdraws
+  style: 极其鲜艳的色彩，高光强烈的半写实风格，迪士尼与日系结合。
+  template: @rossdraws, 1girl, {character}, semi-realistic, detailed face, realistic proportions, subsurface scattering, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:西式数码/美漫] @samdoesarts
+  style: 独特的卡通半写实，标志性的高光点，柔和的数码笔触。
+  template: @samdoesarts, 1girl, {character}, semi-realistic, detailed face, realistic proportions, subsurface scattering, masterpiece quality
+---
+[DOMAIN:画师精选] [CAT:西式数码/美漫] @ilya_kuvshinov
+  style: 极简的色彩，电影感的打光，现代时尚女性，眼神极具穿透力。
+  template: @ilya_kuvshinov, 1girl, {character}
