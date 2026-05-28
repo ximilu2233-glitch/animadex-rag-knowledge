@@ -108,7 +108,7 @@ python 5_模板生成.py
 
 **炼天魔尊分魂-不信子 (BuXinZi)**
 
-- GitHub：[github.com/BuXinZi](https://github.com/BuXinZi)
+- GitHub：[github.com/buxinzi2233](https://github.com/buxinzi2233)
 - Civitai：[civitai.red/user/BuXinZi](https://civitai.red/user/BuXinZi)（偶尔发布 LoRA 模型，欢迎关注）
 - B 站教程、教学视频等可直接使用，注明出处即可
 
