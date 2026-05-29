@@ -1,39 +1,39 @@
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 平淡 视觉冲击 不够震撼 太普通 缺乏张力 冲击力 不够抢眼]
 trigger: 画面太平淡，缺乏视觉冲击力
 action: add dramatic lighting, depth of field, cinematic composition, bokeh, rim light, high contrast, (masterpiece:1.3), (best quality:1.3)
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 不突出 背景抢了主体 角色太小 主体不明显 没存在感 不够显眼]
 trigger: 角色不够突出，背景抢了主体
 action: add spotlight effect, vignette, dutch angle, negative space around the subject, boost ({character}:1.3)
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 背景单调 空洞 太简单 缺少细节 环境太空 背景不够丰富]
 trigger: 背景太单调或空洞
 action: add detailed background, atmospheric effects, particles, lens flare, mist, god rays, volumetric lighting, complex environment, depth of field
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 色彩 灰蒙蒙 颜色 不够鲜艳 饱和度 色调 发灰 太素 不够亮 不够彩]
 trigger: 色彩不够出彩，灰蒙蒙的
 action: add vivid colors, color grading, complementary color scheme, chromatic aberration, gradient lighting, (saturation:1.2)
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 质感 廉价 不够精致 细节不够 粗糙 模糊 没质感 糊]
 trigger: 画面质感不够，看起来廉价
 action: add intricate details, texture focus, fabric folds, hair strands, skin subsurface scattering, metallic reflection, glossy finish, (detailed:1.3)
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 构图 太平 缺乏张力 太正 没有动态 呆板 不够有冲击力 不够动感]
 trigger: 构图太平，缺乏张力
 action: add dynamic angle, perspective distortion, wide angle lens, foreshortening, rule of thirds, leading lines, diagonal composition
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 光影 没有层次 太亮 太暗 没有阴影 平光 光线太平 不够立体]
 trigger: 光影太平，没有层次
 action: add chiaroscuro, rim lighting, backlighting, dramatic shadows, volumetric light beams, three-point lighting, ambient occlusion
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 故事感 摆拍 不自然 没有剧情 缺乏互动 太僵硬 没有灵魂 没故事]
 trigger: 缺乏故事感，角色像摆拍
 action: add storytelling elements, environmental storytelling, symbolic objects, character interaction with environment, emotional atmosphere, narrative props
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 18禁 成人 NSFW 不够色情 不够性感 太素 不够涩 不够劲 不够大胆]
 trigger: 需要18禁或成人内容增强
 action: add detailed skin texture, body details, sensual lighting, soft focus, intimate composition, tasteful anatomy, realistic proportions, (detailed:1.3)
 
-[DOMAIN:规则] [CAT:增强/V2]
+[DOMAIN:规则] [CAT:增强/V2] [KEYWORDS: 模糊 分辨率不够 不清晰 太糊 低画质 锯齿 不够锐 不清楚]
 trigger: 画面太模糊或分辨率不够
 action: add absurdres, sharp focus, high resolution, crisp lines, clean lineart, detailed rendering, (absurdres:1.2)
