@@ -28,26 +28,48 @@
 
 ---
 
+## 📋 模板触发指南
+
+每个模板文件内置了 `[KEYWORDS: ...]` 标签。当你的 query 包含这些关键词时，EasyRAG 会自动匹配对应模板，LLM 按模板结构填空。即使 EasyRAG 未返回模板 chunk，System Prompt 中的强制路由规则也会根据你的关键词选择正确模板。
+
+| 模板 | 触发关键词 | 你的槽位 |
+|---|---|---|
+| **插画基础** | `插画` `立绘` `角色图` `人物图` `单张` `basic` `illustration` | `{safety}` `{artist}` `{count}` `{character}` `{clothing}` `{pose}` `{scene}` `{lighting}` |
+| **剧情主视觉** | `剧情封面` `海报` `主视觉` `电影海报` `key visual` `poster` `cinematic` | 基础槽位 + `{identity}` `{action}` `{conflict}` `{mood}` |
+| **漫画单页** | `漫画` `黑白漫画` `日漫` `单页漫画` `manga` `comic` `monochrome` | `{safety}` `{artist}` `{count}` `{character}` `{action}` |
+| **首尾帧** | `首尾帧` `动作过程` `从 到 变化` `图生视频` `关键帧` `keyframe` `image-to-video` | 基础槽位 + `{frame_type}` `{composition}` `{direction}` `{motion_hint}` |
+| **局部重绘** | `局部重绘` `修改` `换发型` `换衣服` `inpaint` `retouch` | `{safety}` `{artist}` `{count}` `{character}` `{change_target}` |
+
+### 触发示例
+
+**插画基础**：`"帮我画一个穿 JK 制服的少女，anmi 风格"` → 命中 `插画 角色图` → LLM 填 `{clothing}=school uniform, {artist}=@anmi`
+
+**剧情主视觉**：`"剧情封面，魔法少女对抗巨龙，wlop 风格"` → 命中 `剧情封面 poster` → LLM 填 `{identity}=magical girl, {action}=casting a spell, {conflict}=dark dragon`
+
+**漫画单页**：`"黑白日漫风格，初音在雨中奔跑"` → 命中 `漫画 monochrome manga` → LLM 填 `{character}=hatsune miku, {action}=running through rain`
+
+**首尾帧**：`"图生视频，战斗拔刀过程，女剑士从收刀到斩击完成"` → 命中 `动作过程 从 到 变化 keyframe` → LLM 输出两帧，用 `---` 分隔
+
+**局部重绘**：`"给初音换个短发，其余不变"` → 命中 `修改 换发型 inpaint` → LLM 填 `{change_target}=short bob cut`
+
+**增强规则**：`"画面太平淡了，加点冲击力"` → 命中 `平淡 视觉冲击` → LLM 追加 `dramatic lighting, depth of field, cinematic composition`
+
+### 格式注意事项
+
+- 标签层和自然语言层之间**必须有一个空行**
+- 禁止 NL 句式混入标签区 — `with long hair` → `long hair`
+- 同义标签不堆叠 — `blowjob, fellatio` → 只保留一个
+- `{safety}` 由 LLM 自动判断（`safe` / `sensitive` / `nsfw` / `explicit`），无需用户手动选择
+- 权重语法：Anima 支持 `(tag:1.5)` 格式，但画师标签响应阈值较高（建议 ≥1.5）。每个权重标签多占 5~6 token，堆叠过多会耗尽 512 token 窗口
+
+---
+
 ## 从原始数据构建
 
-如果你想从原始数据重新构建知识库：
-
 ```bash
-# 1. 将以下源文件放入 source/ 目录（通过下方链接获取）
-#    danbooru_e261_updated.csv
-#    anima-1.0 (1).csv
-#    animadex_index.csv
-#    artists.csv
-#    画师精选.csv → 重命名为 画师精选.md
-#    1万条提示词完整版.csv
-
-# 2. 运行构建脚本
 cd scripts
-python 1_tag_生成.py
-python 2_角色合并.py
-python 3_画师去重.py
-python 4_prompt_prep.py
-python 5_模板生成.py
+python 1_tag_生成.py; python 2_角色合并.py; python 3_画师去重.py
+python 4_prompt_prep.py; python 5_模板生成.py
 ```
 
 ---
@@ -72,9 +94,7 @@ python 5_模板生成.py
 | `anima规则(概念神版).txt` | 概念神增强策略 | QQ群友 三费武装白色人种 |
 | `Anima_提示词规则_AI-KSK(2).docx` | Anima 实战指南 | [AI-KSK](https://space.bilibili.com/110353151) |
 
-以上均为无偿分享。
-
-以上原始数据版权归各自来源所有。本仓库仅做格式整理与分类优化，不施加额外限制。
+以上均为无偿分享。原始数据版权归各自来源所有。本仓库仅做格式整理与分类优化，不施加额外限制。
 
 ---
 
@@ -82,47 +102,25 @@ python 5_模板生成.py
 
 | 工具 | 用途 |
 |---|---|
-| Python（标准库） | 5 个数据处理脚本 + 共享模块 |
-| DeepSeek V4 Pro | 代码审查、分类逻辑设计、模板设计辅助 |
-| ComfyUI Easy-RAG | 目标部署平台（RAG 检索） |
-
----
+| Python（标准库） | 数据处理脚本 |
+| DeepSeek V4 Pro | 代码审查、分类逻辑设计、模板设计 |
+| ComfyUI Easy-RAG | 部署平台 |
 
 ## 说明
 
-本项目由单人 + AI 辅助完成，精力有限，可能存在疏漏或分类不准确之处，还请谅解。如有问题欢迎提交 [Issues](../../issues)。
-
----
+本项目由单人 + AI 辅助，精力有限，可能存在疏漏，敬请谅解。欢迎提交 Issues。
 
 ## 许可
 
 - 处理脚本（`scripts/`）：**MIT License**
-- 知识库文件（`知识库/`）：整理自上述公开数据源，**永久免费开放**
+- 知识库文件（`知识库/`）：整理自公开数据源，**永久免费开放**
 
-> ⚠️ 如果你在淘宝/闲鱼/付费群等渠道付费获得了此知识库，你被骗了。  
-> 本仓库始终免费提供最新版本。遇到倒卖请帮忙举报，也可以到 [C 站私信我](https://civitai.red/user/BuXinZi) 告知。
-
----
+> ⚠️ 如果你在付费渠道获得此知识库，你被骗了。本仓库始终免费提供最新版本。遇到倒卖请到 [C 站私信我](https://civitai.red/user/BuXinZi) 告知。
 
 ## 作者
 
-**炼天魔尊分魂-不信子 (BuXinZi)**
-
-- GitHub：[github.com/buxinzi2233](https://github.com/buxinzi2233)
-- Civitai：[civitai.red/user/BuXinZi](https://civitai.red/user/BuXinZi)（偶尔发布 LoRA 模型，欢迎关注）
-- B 站教程、教学视频等可直接使用，注明出处即可
-
-> ⚠️ 本人未开设任何 QQ 群/微信群/付费频道。如遇到以"不信子"名义建立的群组均为假冒，请警惕。  
-> 偶尔能在一些 AI 绘画交流群见到我（虽然也就是个底边而已，笑）。
-
----
+**炼天魔尊分魂-不信子 (BuXinZi)** — GitHub · Civitai（发布 LoRA 模型，欢迎关注）| 未开设任何 QQ 群/微信群/付费频道。
 
 ## 相关项目
 
-- [ComfyUI Easy-RAG](https://github.com/nregret/Comfyui-Easy-RAG) — RAG 节点插件
-- [Anima Style Explorer](https://github.com/fulletLab/comfyui-anima-style-nodes) — 画师/角色浏览器
-- [AnimaDex](https://github.com/zetaneko/AnimaDex) — 角色/画师索引与自托管画廊（animadex.net 后端）
-- [BetaDoggo/danbooru-tag-list](https://github.com/BetaDoggo/danbooru-tag-list) — 模型标签列表
-- [DrawingSpells](https://github.com/hbl917070/DrawingSpells) — 角色提示词查询工具
-- [Laxhar/noob-wiki](https://huggingface.co/datasets/Laxhar/noob-wiki) — Animadex 底层角色/画师数据集
-- [NebulaeWis/e621-2024](https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel) — DrawingSpells 底层图像数据集
+ComfyUI Easy-RAG · Anima Style Explorer · AnimaDex · BetaDoggo/danbooru-tag-list · DrawingSpells · Laxhar/noob-wiki · NebulaeWis/e621-2024
